@@ -68,7 +68,7 @@ biome-blacklist:
 
 # 每日任务分配算法配置
 assignment:
-  groups-per-day: 26       # 每天任务组数（每组不同群系）
+  groups-per-day: 6        # 每天任务组数（每组不同群系）
   cooldown-days: 3        # 连续N天的群系强制冷却
   preference-bonus: 1.2   # 偏好群系权重加成
   cooldown-penalty: 0.1   # 冷却中群系权重惩罚
