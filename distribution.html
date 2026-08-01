@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { font-family: "Microsoft YaHei", sans-serif; background: #1a1a2e; color: #e0e0e0; padding: 30px; }
+  h1 { color: #f0c040; text-align: center; font-size: 22px; }
+  h2 { color: #80d0ff; font-size: 16px; margin: 24px 0 8px; border-bottom: 1px solid #334; padding-bottom: 4px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th { background: #16213e; color: #f0c040; padding: 6px 10px; text-align: left; border-bottom: 2px solid #334; }
+  td { padding: 4px 10px; border-bottom: 1px solid #222; }
+  tr:hover { background: #1a2744; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; font-family: "Consolas", monospace; }
+  .ns-header { background: #0f3460; }
+  .ns-header td { padding: 6px 10px; font-weight: bold; color: #80d0ff; }
+  .bar-cell { width: 200px; }
+  .bar { height: 16px; background: linear-gradient(90deg, #e94560, #f0c040); border-radius: 3px; display: inline-block; min-width: 2px; }
+  .bar-ns { background: linear-gradient(90deg, #0f3460, #533483); }
+  .total-row td { font-weight: bold; border-top: 2px solid #f0c040; background: #16213e; }
+  .footer { text-align: center; color: #666; font-size: 11px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<h1>BiomeBounty 任务池概率分布列</h1>
+<table>
+<tr><th>群系</th><th class="num">任务数 k</th><th class="num">P(X=k)</th><th class="num">占比</th><th>分布</th></tr>
+<tr class="ns-header"><td colspan="5">minecraft　(65 群系 · 1800 任务 · 76.1%)</td></tr>
+<tr><td>old_growth_pine_taiga</td><td class="num">38</td><td class="num">0.0161</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:190px"></span></td></tr>
+<tr><td>old_growth_spruce_taiga</td><td class="num">38</td><td class="num">0.0161</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:190px"></span></td></tr>
+<tr><td>savanna_plateau</td><td class="num">38</td><td class="num">0.0161</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:190px"></span></td></tr>
+<tr><td>plains</td><td class="num">37</td><td class="num">0.0156</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:185px"></span></td></tr>
+<tr><td>snowy_taiga</td><td class="num">37</td><td class="num">0.0156</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:185px"></span></td></tr>
+<tr><td>sunflower_plains</td><td class="num">37</td><td class="num">0.0156</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:185px"></span></td></tr>
+<tr><td>taiga</td><td class="num">37</td><td class="num">0.0156</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:185px"></span></td></tr>
+<tr><td>wooded_badlands</td><td class="num">37</td><td class="num">0.0156</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:185px"></span></td></tr>
+<tr><td>savanna</td><td class="num">36</td><td class="num">0.0152</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:180px"></span></td></tr>
+<tr><td>badlands</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>bamboo_jungle</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>eroded_badlands</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>jungle</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>swamp</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>windswept_forest</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>windswept_gravelly_hills</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>windswept_hills</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>windswept_savanna</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>birch_forest</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>deep_lukewarm_ocean</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>flower_forest</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>forest</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>lukewarm_ocean</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>old_growth_birch_forest</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>desert</td><td class="num">33</td><td class="num">0.0140</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:165px"></span></td></tr>
+<tr><td>sparse_jungle</td><td class="num">33</td><td class="num">0.0140</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:165px"></span></td></tr>
+<tr><td>warm_ocean</td><td class="num">33</td><td class="num">0.0140</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:165px"></span></td></tr>
+<tr><td>cold_ocean</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>deep_cold_ocean</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>deep_frozen_ocean</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>deep_ocean</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>frozen_ocean</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>meadow</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>ocean</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>cherry_grove</td><td class="num">31</td><td class="num">0.0131</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:155px"></span></td></tr>
+<tr><td>dark_forest</td><td class="num">31</td><td class="num">0.0131</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:155px"></span></td></tr>
+<tr><td>frozen_river</td><td class="num">31</td><td class="num">0.0131</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:155px"></span></td></tr>
+<tr><td>river</td><td class="num">31</td><td class="num">0.0131</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:155px"></span></td></tr>
+<tr><td>snowy_plains</td><td class="num">31</td><td class="num">0.0131</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:155px"></span></td></tr>
+<tr><td>ice_spikes</td><td class="num">30</td><td class="num">0.0127</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:150px"></span></td></tr>
+<tr><td>mangrove_swamp</td><td class="num">30</td><td class="num">0.0127</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:150px"></span></td></tr>
+<tr><td>dripstone_caves</td><td class="num">29</td><td class="num">0.0123</td><td class="num">1.2%</td><td class="bar-cell"><span class="bar" style="width:145px"></span></td></tr>
+<tr><td>grove</td><td class="num">28</td><td class="num">0.0118</td><td class="num">1.2%</td><td class="bar-cell"><span class="bar" style="width:140px"></span></td></tr>
+<tr><td>beach</td><td class="num">27</td><td class="num">0.0114</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:135px"></span></td></tr>
+<tr><td>lush_caves</td><td class="num">26</td><td class="num">0.0110</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:130px"></span></td></tr>
+<tr><td>snowy_beach</td><td class="num">26</td><td class="num">0.0110</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:130px"></span></td></tr>
+<tr><td>snowy_slopes</td><td class="num">26</td><td class="num">0.0110</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:130px"></span></td></tr>
+<tr><td>stony_shore</td><td class="num">26</td><td class="num">0.0110</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:130px"></span></td></tr>
+<tr><td>frozen_peaks</td><td class="num">25</td><td class="num">0.0106</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:125px"></span></td></tr>
+<tr><td>jagged_peaks</td><td class="num">25</td><td class="num">0.0106</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:125px"></span></td></tr>
+<tr><td>pale_garden</td><td class="num">24</td><td class="num">0.0101</td><td class="num">1.0%</td><td class="bar-cell"><span class="bar" style="width:120px"></span></td></tr>
+<tr><td>stony_peaks</td><td class="num">24</td><td class="num">0.0101</td><td class="num">1.0%</td><td class="bar-cell"><span class="bar" style="width:120px"></span></td></tr>
+<tr><td>sulfur_caves</td><td class="num">24</td><td class="num">0.0101</td><td class="num">1.0%</td><td class="bar-cell"><span class="bar" style="width:120px"></span></td></tr>
+<tr><td>deep_dark</td><td class="num">20</td><td class="num">0.0085</td><td class="num">0.8%</td><td class="bar-cell"><span class="bar" style="width:100px"></span></td></tr>
+<tr><td>mushroom_fields</td><td class="num">18</td><td class="num">0.0076</td><td class="num">0.8%</td><td class="bar-cell"><span class="bar" style="width:90px"></span></td></tr>
+<tr><td>crimson_forest</td><td class="num">14</td><td class="num">0.0059</td><td class="num">0.6%</td><td class="bar-cell"><span class="bar" style="width:70px"></span></td></tr>
+<tr><td>warped_forest</td><td class="num">14</td><td class="num">0.0059</td><td class="num">0.6%</td><td class="bar-cell"><span class="bar" style="width:70px"></span></td></tr>
+<tr><td>nether_wastes</td><td class="num">11</td><td class="num">0.0047</td><td class="num">0.5%</td><td class="bar-cell"><span class="bar" style="width:55px"></span></td></tr>
+<tr><td>basalt_deltas</td><td class="num">8</td><td class="num">0.0034</td><td class="num">0.3%</td><td class="bar-cell"><span class="bar" style="width:40px"></span></td></tr>
+<tr><td>soul_sand_valley</td><td class="num">8</td><td class="num">0.0034</td><td class="num">0.3%</td><td class="bar-cell"><span class="bar" style="width:40px"></span></td></tr>
+<tr><td>end_barrens</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr><td>end_highlands</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr><td>end_midlands</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr><td>small_end_islands</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr><td>the_end</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr class="ns-header"><td colspan="5">twilightforest　(22 群系 · 526 任务 · 22.2%)</td></tr>
+<tr><td>dense_forest</td><td class="num">40</td><td class="num">0.0169</td><td class="num">1.7%</td><td class="bar-cell"><span class="bar" style="width:200px"></span></td></tr>
+<tr><td>mushroom_forest</td><td class="num">39</td><td class="num">0.0165</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:195px"></span></td></tr>
+<tr><td>dense_mushroom_forest</td><td class="num">37</td><td class="num">0.0156</td><td class="num">1.6%</td><td class="bar-cell"><span class="bar" style="width:185px"></span></td></tr>
+<tr><td>forest</td><td class="num">36</td><td class="num">0.0152</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:180px"></span></td></tr>
+<tr><td>enchanted_forest</td><td class="num">35</td><td class="num">0.0148</td><td class="num">1.5%</td><td class="bar-cell"><span class="bar" style="width:175px"></span></td></tr>
+<tr><td>clearing</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>firefly_forest</td><td class="num">34</td><td class="num">0.0144</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:170px"></span></td></tr>
+<tr><td>oak_savannah</td><td class="num">32</td><td class="num">0.0135</td><td class="num">1.4%</td><td class="bar-cell"><span class="bar" style="width:160px"></span></td></tr>
+<tr><td>swamp</td><td class="num">31</td><td class="num">0.0131</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:155px"></span></td></tr>
+<tr><td>highlands</td><td class="num">30</td><td class="num">0.0127</td><td class="num">1.3%</td><td class="bar-cell"><span class="bar" style="width:150px"></span></td></tr>
+<tr><td>dark_forest</td><td class="num">27</td><td class="num">0.0114</td><td class="num">1.1%</td><td class="bar-cell"><span class="bar" style="width:135px"></span></td></tr>
+<tr><td>spooky_forest</td><td class="num">23</td><td class="num">0.0097</td><td class="num">1.0%</td><td class="bar-cell"><span class="bar" style="width:114px"></span></td></tr>
+<tr><td>dark_forest_center</td><td class="num">19</td><td class="num">0.0080</td><td class="num">0.8%</td><td class="bar-cell"><span class="bar" style="width:95px"></span></td></tr>
+<tr><td>fire_swamp</td><td class="num">19</td><td class="num">0.0080</td><td class="num">0.8%</td><td class="bar-cell"><span class="bar" style="width:95px"></span></td></tr>
+<tr><td>underground</td><td class="num">18</td><td class="num">0.0076</td><td class="num">0.8%</td><td class="bar-cell"><span class="bar" style="width:90px"></span></td></tr>
+<tr><td>highlands_underground</td><td class="num">16</td><td class="num">0.0068</td><td class="num">0.7%</td><td class="bar-cell"><span class="bar" style="width:80px"></span></td></tr>
+<tr><td>snowy_forest</td><td class="num">15</td><td class="num">0.0063</td><td class="num">0.6%</td><td class="bar-cell"><span class="bar" style="width:75px"></span></td></tr>
+<tr><td>lake</td><td class="num">13</td><td class="num">0.0055</td><td class="num">0.5%</td><td class="bar-cell"><span class="bar" style="width:65px"></span></td></tr>
+<tr><td>stream</td><td class="num">13</td><td class="num">0.0055</td><td class="num">0.5%</td><td class="bar-cell"><span class="bar" style="width:65px"></span></td></tr>
+<tr><td>glacier</td><td class="num">10</td><td class="num">0.0042</td><td class="num">0.4%</td><td class="bar-cell"><span class="bar" style="width:50px"></span></td></tr>
+<tr><td>thornlands</td><td class="num">4</td><td class="num">0.0017</td><td class="num">0.2%</td><td class="bar-cell"><span class="bar" style="width:20px"></span></td></tr>
+<tr><td>final_plateau</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr class="ns-header"><td colspan="5">nerospace　(6 群系 · 15 任务 · 0.6%)</td></tr>
+<tr><td>greenxertz</td><td class="num">5</td><td class="num">0.0021</td><td class="num">0.2%</td><td class="bar-cell"><span class="bar" style="width:25px"></span></td></tr>
+<tr><td>cindara</td><td class="num">3</td><td class="num">0.0013</td><td class="num">0.1%</td><td class="bar-cell"><span class="bar" style="width:15px"></span></td></tr>
+<tr><td>glacira</td><td class="num">3</td><td class="num">0.0013</td><td class="num">0.1%</td><td class="bar-cell"><span class="bar" style="width:15px"></span></td></tr>
+<tr><td>terraformed_meadow</td><td class="num">2</td><td class="num">0.0008</td><td class="num">0.1%</td><td class="bar-cell"><span class="bar" style="width:10px"></span></td></tr>
+<tr><td>terraformed_savanna</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr><td>terraformed_tundra</td><td class="num">1</td><td class="num">0.0004</td><td class="num">0.0%</td><td class="bar-cell"><span class="bar" style="width:5px"></span></td></tr>
+<tr class="ns-header"><td colspan="5">integrateddynamics　(1 群系 · 13 任务 · 0.5%)</td></tr>
+<tr><td>meneglin</td><td class="num">13</td><td class="num">0.0055</td><td class="num">0.5%</td><td class="bar-cell"><span class="bar" style="width:65px"></span></td></tr>
+<tr class="ns-header"><td colspan="5">evilcraft　(1 群系 · 11 任务 · 0.5%)</td></tr>
+<tr><td>degraded</td><td class="num">11</td><td class="num">0.0047</td><td class="num">0.5%</td><td class="bar-cell"><span class="bar" style="width:55px"></span></td></tr>
+<tr class="total-row"><td>合计</td><td class="num">2365</td><td class="num">1.0000</td><td class="num">100%</td><td></td></tr>
+</table>
+<div class="footer">P(X=k) = n_k / N,　N = 2365</div>
+</body></html>

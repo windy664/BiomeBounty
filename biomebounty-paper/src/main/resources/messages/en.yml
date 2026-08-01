@@ -1,0 +1,59 @@
+dimension:
+  overworld: "Overworld"
+  nether: "Nether"
+  end: "End"
+  twilightforest: "Twilight Forest"
+  aether: "Aether"
+  undergarden: "Undergarden"
+  blue_skies: "Blue Skies"
+
+messages:
+  prefix: "&6[BiomeBounty] &r"
+  task:
+    accepted: "&aYou accepted task: &f{task}"
+    completed: "&aTask completed: &f{task}"
+    abandoned: "&cYou abandoned task: &f{task}"
+    expired: "&cTask expired: &f{task}"
+    progress: "&7Progress: &f{current}/{amount}"
+    pool-empty: "&cNo available tasks in this biome"
+  reward:
+    claimed: "&aYou claimed reward"
+    already-claimed: "&cYou already claimed the reward"
+    not-completed: "&cPlease complete all tasks first"
+  cooldown:
+    active: "&cYou must wait {time} before accepting new tasks"
+  board:
+    protected: "&cThis board is protected"
+    not-found: "&cBoard not found"
+  biome:
+    no-permission: "&cYou don't have permission"
+    scan-complete: "&aScan complete, found {count} biomes"
+  gui:
+    reward-button: "&aClaim Reward"
+    reward-button-locked: "&cNot Completed"
+    refresh-button: "&eRefresh Tasks"
+    close-button: "&cClose"
+  command:
+    reload: "&aConfiguration reloaded"
+    reset: "&aReset tasks for {player}"
+    reset-all: "&aReset all player tasks"
+    debug: "&aDebug mode {status}"
+    help:
+      - "&6=== BiomeBounty Help ==="
+      - "&e/bounty &7- Open global task panel"
+      - "&e/bounty <biome> &7- Open biome bounty"
+      - "&e/bounty help &7- Show help"
+    admin-help:
+      - "&6=== Admin Help ==="
+      - "&e/bountyadmin reload &7- Reload configuration"
+      - "&e/bountyadmin scan &7- Rescan biome data"
+      - "&e/bountyadmin reset <player> &7- Reset player tasks"
+      - "&e/bountyadmin resetall &7- Reset all tasks"
+      - "&e/bountyadmin debug &7- Toggle debug mode"
+  notify:
+    task-completed: "&a✓ Task completed: {task}"
+    task-expired: "&c✗ Task expired: {task}"
+    daily-reset: "&6Daily tasks have been reset!"
+  error:
+    no-permission: "&cYou don't have permission"
+    player-not-found: "&cPlayer is offline or doesn't exist"

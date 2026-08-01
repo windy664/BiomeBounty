@@ -1,0 +1,26 @@
+name: BiomeBounty
+version: '${version}'
+main: com.biomebounty.BiomeBountyPlugin
+description: 群系悬赏系统
+author: BiomeBounty
+api-version: '1.21'
+
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: false
+
+permissions:
+  biomebounty.command.bounty:
+    default: true
+  biomebounty.command.admin:
+    default: op
+  biomebounty.biome.*:
+    default: true
+  biomebounty.task.*:
+    default: true
+  biomebounty.gui.*:
+    default: true
+  biomebounty.admin.*:
+    default: op

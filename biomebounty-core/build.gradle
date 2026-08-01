@@ -1,0 +1,18 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api project(':biomebounty-api')
+
+    // Gson - 编译期需要，运行时由 Paper libraries 提供
+    compileOnly 'com.google.code.gson:gson:2.10.1'
+
+    // 测试
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+    useJUnitPlatform()
+}

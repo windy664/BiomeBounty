@@ -1,0 +1,33 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' apply false
+}
+
+allprojects {
+    group = 'com.biomebounty'
+    version = '1.0.0'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+
+    repositories {
+        mavenCentral()
+        maven {
+            name = 'papermc'
+            url = 'https://repo.papermc.io/repository/maven-public/'
+        }
+        maven {
+            name = 'placeholderapi'
+            url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
+        }
+    }
+}

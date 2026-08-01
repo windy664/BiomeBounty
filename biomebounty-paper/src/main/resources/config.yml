@@ -1,0 +1,74 @@
+# BiomeBounty 配置
+
+settings:
+  server-dir: "."
+  auto-scan: true
+  daily-reset-hour: 3
+  tasks-per-board: 4
+  language: zh_CN
+  debug: false
+
+# 悬赏版：悬赏牌 + 群系任务
+bounty:
+  enabled: true
+
+database:
+  type: sqlite
+  sqlite:
+    file: data.db
+  mysql:
+    host: localhost
+    port: 3306
+    database: biomebounty
+    username: root
+    password: ""
+
+board:
+  indestructible: true
+  explosion-proof: true
+
+# 经济防通胀
+economy:
+  target-daily-income: 2000  # 目标日收益上限，超过后线性衰减
+
+rewards:
+  daily:
+    gold: 500
+    coins: 0
+  group:
+    base-gold: 300        # 每组基础金币（+难度加成+随机）
+    # 物品奖励（可选）
+    # items:
+    #   diamond:
+    #     material: DIAMOND
+    #     amount: 1
+    #     display-name: "&b悬赏钻石"
+    #     lore:
+    #       - "&7群系悬赏奖励"
+    #   golden_apple:
+    #     material: GOLDEN_APPLE
+    #     amount: 2
+  abandon:
+    cooldown: 3600
+    gold-penalty: 100
+
+notifications:
+  task-completed: true
+  task-expired: true
+  daily-reset: true
+
+# 群系黑名单（支持正则表达式，匹配的群系不参与任务分配）
+biome-blacklist:
+  enabled: true
+  patterns:
+    - "twilightforest:.*"       # 暮色森林全部群系
+    # - "nerospace:.*"          # nerospace 全部
+    # - "minecraft:nether_.*"   # 下界群系
+    # - "the_aether:.*"         # 天境
+
+# 每日任务分配算法配置
+assignment:
+  groups-per-day: 26       # 每天任务组数（每组不同群系）
+  cooldown-days: 3        # 连续N天的群系强制冷却
+  preference-bonus: 1.2   # 偏好群系权重加成
+  cooldown-penalty: 0.1   # 冷却中群系权重惩罚

@@ -1,0 +1,62 @@
+dimension:
+  overworld: "主世界"
+  nether: "下界"
+  end: "末地"
+  twilightforest: "暮色森林"
+  aether: "天境"
+  undergarden: "深园"
+  blue_skies: "苍穹"
+
+messages:
+  prefix: "&6[群系悬赏] &r"
+  task:
+    accepted: "&a你接取了任务: &f{task}"
+    completed: "&a任务完成: &f{task}"
+    abandoned: "&c你放弃了任务: &f{task}"
+    expired: "&c任务超时: &f{task}"
+    progress: "&7进度: &f{current}/{amount}"
+    pool-empty: "&c暂无可用任务，请等待服务器扫描完成"
+  reward:
+    claimed: "&a你领取了奖励"
+    already-claimed: "&c你已经领取过奖励了"
+    not-completed: "&c请先完成所有任务"
+  cooldown:
+    active: "&c你必须等待 {time} 才能接取新任务"
+  board:
+    protected: "&c该悬赏板受保护，无法破坏"
+    not-found: "&c未找到悬赏板"
+  biome:
+    no-permission: "&c你没有权限访问该群系的悬赏"
+    scan-complete: "&a扫描完成，共发现 {count} 个群系"
+  gui:
+    reward-button: "&a领取奖励"
+    reward-button-locked: "&c未完成"
+    refresh-button: "&e刷新任务"
+    close-button: "&c关闭"
+  command:
+    reload: "&a配置已重载"
+    reset: "&a已重置 {player} 的任务"
+    reset-all: "&a已重置所有玩家的任务"
+    debug: "&a调试模式已{status}"
+    help:
+      - "&6=== 群系悬赏帮助 ==="
+      - "&e/bounty &7- 打开每日悬赏面板"
+      - "&e/bounty <群系> &7- 打开指定群系悬赏板"
+      - "&e/bounty help &7- 显示帮助"
+      - ""
+      - "&7每天自动分配 6 个任务（3个群系×2个）"
+      - "&7任务类型: 采集/击杀/探索/钓鱼/繁殖/种植"
+    admin-help:
+      - "&6=== 管理员帮助 ==="
+      - "&e/bountyadmin reload &7- 重载配置"
+      - "&e/bountyadmin scan &7- 重新扫描群系数据"
+      - "&e/bountyadmin reset <玩家> &7- 重置玩家任务"
+      - "&e/bountyadmin resetall &7- 重置所有任务"
+      - "&e/bountyadmin debug &7- 切换调试模式"
+  notify:
+    task-completed: "&a✓ 任务完成: {task}"
+    task-expired: "&c✗ 任务超时: {task}"
+    daily-reset: "&6每日任务已刷新！"
+  error:
+    no-permission: "&c你没有权限"
+    player-not-found: "&c玩家不在线或不存在"
