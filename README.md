@@ -1,4 +1,15 @@
+<div align="center">
+
+<img src="assets/banner.svg" alt="BiomeBounty" width="100%">
+
+</div>
+
 # BiomeBounty - 群系悬赏系统
+
+![Platform](https://img.shields.io/badge/Platform-Paper-62bda8?style=flat-square&logo=minecraft&logoColor=white)
+![Minecraft](https://img.shields.io/badge/MC-1.21%2B-8a9a5b?style=flat-square)
+![Java](https://img.shields.io/badge/Java-21-f89820?style=flat-square&logo=openjdk&logoColor=white)
+![Storage](https://img.shields.io/badge/Storage-SQLite%20%2F%20MySQL-4479a1?style=flat-square)
 
 基于 Minecraft 生物群系的每日悬赏任务插件。自动扫描服务器群系数据，根据群系资源动态生成难度递进的任务组。
 
